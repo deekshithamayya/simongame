@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>simon game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html>
+  <body class="colorchange"><div class="jumbotron">SIMON GAME</div>
+    <div id="msg"></div>
+    <div class="container">
+      <table id="simon">
+        <caption>count: 0</caption><tr><td id="red" onclick="me('red')"></td><td id="green" onclick="me('green')"></td><tr><td id="yellow" onclick="me('yellow')"></td><td id="blue" onclick="me('blue')"></td></tr></table></div>
+  <button id="normal" onclick="start('normal')">REGULAR MODE</button><br>
+   <button id="strict" onclick="start('strict')">STRICT MODE</button>
+  <button id="reset" onclick="reset('out')">RESET</button>
+  <audio id="redaudio"><source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg"></audio>
+   <audio id="greenaudio"><source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg"></audio>
+   <audio id="blueaudio"><source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg"></audio>
+   <audio id="yellowaudio"><source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg"></audio>
+    </div>
+  </body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
